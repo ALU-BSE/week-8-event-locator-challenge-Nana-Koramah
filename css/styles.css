@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.hero {
+  background: linear-gradient(to right, #2d232e, #474448);
+  padding: 60px 0;
+  color: white;
+}
+
+.hero h1, .hero p {
+  margin: 0;
+}
+
+.search-section {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.btn-primary {
+  background-color: #2d232e;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #534b52;
+}
+
+.navbar {
+  background-color: #2d232e;
+  box-shadow: 0 4px 6px #f8f9fa;
+}
+
+/* General Styles */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+}
+
+
+/* Header */
+.header {
+  background: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.header .navbar-brand {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Search Section */
+.search-section {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  background-color: #343a40; /* Dark background */
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+/* Event Cards */
+.event-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.event-card:hover {
+  transform: scale(1.05);
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 16px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover; /* Ensures images look good without stretching */
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+
+/* Event Details Page */
+.event-details {
+  max-width: 600px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.event-details h2 {
+  color: #007bff;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.event-details p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
